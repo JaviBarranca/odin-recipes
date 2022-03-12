@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    color: darkslategrey;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: darkslategrey;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
