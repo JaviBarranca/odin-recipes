@@ -4,10 +4,34 @@ h1 {
     font-weight: bold;
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
 }
 
 h2 {
     color: darkslategrey;
     text-decoration: underline;
     text-decoration-color: aquamarine;
+}
+
+img {
+    height: 470px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+    border-color: darkcyan;
+    border-style: dotted;
+    border-width: 8px;
+}
+
+
+.index-list {
+    font-size: 25px;
+    font-weight: bold;
+    color: dodgerblue;
+    /* Display makes it be all to one block, and margin 0 auto, allows to have em together*/
+    display: table;
+    margin: 0 auto;
+    
 }
