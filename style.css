@@ -11,6 +11,7 @@ h2 {
     color: darkslategrey;
     text-decoration: underline;
     text-decoration-color: aquamarine;
+    font-size: 40px;
 }
 
 img {
@@ -33,5 +34,46 @@ img {
     /* Display makes it be all to one block, and margin 0 auto, allows to have em together*/
     display: table;
     margin: 0 auto;
-    
+    background-color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ingredients {
+    color: darkslateblue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgb(255, 212, 224);
+    margin-left: 50px;
+    margin-right: 350px;
+    text-align: center;
+}
+
+#pizza {
+    color: red;
+}
+
+#potato-cake {
+    color: rgb(238, 255, 0);
+    background-color: blueviolet;
+}
+
+#taco {
+    color: sienna;
+}
+
+.background {
+    background-color: rgb(255, 251, 230);
+}
+
+#img-taco {
+    border-color: sienna;
+}
+
+#img-potato-cake {
+    border-color: rgb(238, 255, 0);
+}
+
+#img-pizza {
+    border-color: red;
 }
